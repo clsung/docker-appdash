@@ -1,7 +1,13 @@
 # docker-appdash
 Appdash docker 
 
-## Prerequirement
+## Usage
+% docker run -p7700:7700 -p7701:7701 clsung/appdash
+
+## Build
+% docker build -t clsung/appdash .
+
+### Prerequirement
 Docker Engine CE >= 17.05
 
 ## Reference
